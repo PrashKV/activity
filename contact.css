@@ -49,64 +49,67 @@ nav a {
     font-weight: bold;
 }
 
-/* Blog post styles */
-#blog {
-    max-width: 960px;
-    margin: 0 auto;
+/* Contact form styles */
+#contact {
+    background-color: #fff;
     padding: 50px 20px;
 }
 
-#blog h1 {
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-#blog ul {
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 40px;
+    grid-gap: 20px;
 }
 
-#blog article {
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+#contact form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
-#blog article img {
+#contact form input,
+#contact form textarea {
     width: 100%;
-    height: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
-#blog article h2 {
-    margin: 20px;
-    font-size: 24px;
-    text-align: center;
+#contact form input:focus,
+#contact form textarea:focus {
+    border-color: #008080;
+    outline: none;
 }
 
-#blog article p.meta {
-    margin: 0 20px 20px;
-    font-style: italic;
-    text-align: center;
+#contact form textarea {
+    resize: none;
+    height: 150px;
 }
 
-#blog article p {
-    margin: 0 20px 20px;
-}
-
-#blog article a {
-    margin: 0 20px 20px;
-    padding: 10px 20px;
+#contact form input[type="submit"] {
     background-color: #008080;
     color: #fff;
+    border: none;
     border-radius: 5px;
-    text-align: center;
-    transition: background-color 0.2s;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-#blog article a:hover {
-    background-color: #006666;
+.contact-info {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
 }
 
 footer {

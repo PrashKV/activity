@@ -3,79 +3,79 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  /* Global styles */
-  body {
+}
+
+/* Global styles */
+body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #333;
-  }
-  
-  a {
+}
+
+a {
     color: #008080;
     text-decoration: none;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     text-decoration: underline;
-  }
-  
-  ul {
+}
+
+ul {
     list-style: none;
-  }
-  
-  nav {
+}
+
+nav {
     /* display: flex; */
     justify-content: space-between;
     align-items: end;
     padding: 20px;
     background-color: #f7f7f7;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     display: flex;
-  }
-  
-  nav li {
+}
+
+nav li {
     margin-right: 20px;
-  }
-  
-  nav a {
+}
+
+nav a {
     padding: 10px;
-  }
-  
-  main {
+}
+
+main {
     max-width: 960px;
     margin: 0 auto;
     padding: 40px;
-  }
-  
-  #projects {
+}
+
+#projects {
     margin-top: 80px;
-  }
-  
-  #projects h1 {
+}
+
+#projects h1 {
     font-size: 32px;
     margin-bottom: 20px;
-  }
-  
-  #projects ul {
+}
+
+#projects ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 40px;
-  }
-  
-  #projects li {
+}
+
+#projects li {
     width: 100%;
     max-width: 400px;
     margin-bottom: 40px;
 }
 
 footer {
-  background-color: #f7f7f7;
-  padding: 20px;
-  text-align: center;
-}   
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+}
