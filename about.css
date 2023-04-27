@@ -1,0 +1,98 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  a {
+    color: #008080;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    padding: 10px;
+  }
+  
+  main {
+    /* max-width: 960px; */
+    max-height: 960px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  #hero {
+    background-image: url('about.jpg');
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+#hero h1 {
+    font-size: 40px;
+    margin-top: 30px;
+}
+  #about-us {
+    margin-top: 80px;
+    text-align: center;
+  }
+  
+  /* #about-us h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  } */
+  
+  #about-us img {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 40px;
+  }
+  
+  #about-us p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+    
+  footer {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+  }
+  

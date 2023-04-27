@@ -1,0 +1,145 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+a {
+    color: #008080;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    padding: 10px;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+main {
+    margin: 0 auto;
+    padding: 40px;
+}
+
+#hero {
+    background-image: url('green.jpg');
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+#hero button {
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#services {
+    margin-top: 80px;
+}
+
+#services h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+#services li {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#projects {
+    margin-top: 80px;
+}
+
+#projects h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+#projects li {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #008080;
+    align-self: auto;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 50px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    
+}
